@@ -1,0 +1,60 @@
+.login-page-container{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+.login{
+    height: 100%;
+    width: 30%;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+input[type=password],input[type=text]{
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    background-color: #F9F6EE;
+    border-radius: 0.2rem;
+
+    width: 300px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.save{
+    width: 300px;
+    margin: 0 auto;
+}
+button{
+    background-color: #638ECB;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem 0;
+    width: 300px;
+    margin: 0 auto;
+    color: white;
+}
+.forgot{
+    width: 300px;
+    margin: 0 auto;
+    line-height: 3rem;
+    opacity: 0.5;
+    text-align: center;
+}
+.account{
+    width: 300px;
+    margin: 0 auto;
+    opacity: 0.5;
+    text-align: center;
+}
